@@ -242,6 +242,8 @@ npm run check
 npm run build
 ```
 
+CI runs on pushes and pull requests with `npm ci`, `npm run check` (typecheck and tests), and `npm run build`. It also scans fetched Git history for secrets with redacted Gitleaks output.
+
 ACP and runtime smoke tests:
 
 ```bash
